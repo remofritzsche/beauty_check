@@ -10,7 +10,9 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Remo Fritzsche"]
   s.date = %q{2013-09-18}
+  s.default_executable = %q{beauty-check}
   s.description = %q{Checks syntax of a project for consistency.}
+  s.executables = ["beauty-check"]
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
@@ -18,9 +20,13 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE",
     "README.rdoc",
     "Rakefile",
+    "VERSION",
+    "beauty_check.gemspec",
+    "bin/beauty-check",
     "lib/beauty_check.rb",
     "test/helper.rb",
     "test/test_beauty_check.rb"

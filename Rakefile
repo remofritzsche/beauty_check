@@ -20,6 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = "Checks syntax of a project for consistency."
   gem.description = gem.summary
   gem.authors = ["Remo Fritzsche"]
+  gem.executables = ["beauty-check"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
