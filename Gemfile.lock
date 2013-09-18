@@ -1,5 +1,4 @@
 GEM
-  remote: http://dev.sitrox.com/gems/
   remote: http://rubygems.org/
   specs:
     addressable (2.3.5)
