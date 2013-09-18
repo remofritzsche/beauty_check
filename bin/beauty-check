@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+# Beauty check command line utility
+
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/../lib'
